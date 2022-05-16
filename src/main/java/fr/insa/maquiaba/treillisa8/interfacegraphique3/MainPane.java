@@ -4,6 +4,7 @@
  */
 package fr.insa.maquiaba.treillisa8.interfacegraphique3;
 
+import fr.insa.maquiaba.treillisa8.projet.treillis.info.Treillis;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -18,6 +19,11 @@ import javafx.scene.paint.Color;
  */
 public class MainPane extends BorderPane {
     
+        private Treillis model;
+ 
+    private DessinPane dessin;
+    
+
     private HBox entete;
     private Label lId;
     private TextField tfId;
@@ -26,7 +32,13 @@ public class MainPane extends BorderPane {
     
     
     
-  public MainPane() {
+  public MainPane(Treillis model) {
+        this.model = model;
+       this.dessin = new DessinPane(this);
+        
+//        this.setTop(this.entete);
+//        this.setLeft(this.barreGauche);
+        this.setCenter(this.dessin);
       this.setMinWidth(1000);
       this.setMinHeight(500);
       this.lId = new Label("id : ");
@@ -41,7 +53,11 @@ public class MainPane extends BorderPane {
       
       this.setTop(this.entete);
       this.setLeft(this.outils);
-      this.setCenter(new Button("en cours"));
+  
   }
     
+     public Treillis getModel() {
+        return model;
+    }
+
 }
