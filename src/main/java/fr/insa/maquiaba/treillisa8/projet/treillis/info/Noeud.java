@@ -13,7 +13,7 @@ import java.util.ArrayList;
  *
  * @author maqui
  */
-public abstract class Noeud {
+public abstract class Noeud {   
    private double nx;
     private double ny;
     private Vecteur2D force;

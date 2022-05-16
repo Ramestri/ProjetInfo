@@ -12,7 +12,7 @@ package fr.insa.maquiaba.treillisa8.projet.treillis.info;
     public class NoeudAppuisSimple extends NoeudAppuis {
     
     public NoeudAppuisSimple (double x,double y,Vecteur2D f,double i){
-        super(x,y,f,i);
+        super(x,y,f,i);     
     }
     
     public NoeudAppuisSimple (double x,double y,Vecteur2D f){

@@ -11,8 +11,8 @@ package fr.insa.maquiaba.treillisa8.projet.treillis.info;
 public abstract class NoeudAppuis extends Noeud{
     
     public NoeudAppuis (double x,double y,Vecteur2D f, double i) {
-        super (x,y,f,i);
-    }
+        super (x,y,f,i);    
+    }  
     
     public NoeudAppuis (double x,double y,Vecteur2D f) {
         super (x,y,f);

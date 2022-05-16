@@ -16,7 +16,7 @@ import javafx.scene.paint.Color;
  *
  * @author francois
  */
-public class FxUtils {
+public class FxUtils {  
     
     public static void setSimpleBorder(Region r,Color c,double epaisseur) {
         

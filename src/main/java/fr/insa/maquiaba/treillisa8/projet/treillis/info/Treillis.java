@@ -10,7 +10,7 @@ import java.util.ArrayList;
  *
  * @author maqui
  */
-    public class Treillis {
+    public class Treillis {   
     private ArrayList<Barre> barres;
     private ArrayList<Noeud> noeuds;
     

@@ -4,7 +4,7 @@
  */
 package fr.insa.maquiaba.treillisa8.projet.treillis.info;
 
-import java.io.IOException;
+import java.io.IOException;   
 
 /**
  *

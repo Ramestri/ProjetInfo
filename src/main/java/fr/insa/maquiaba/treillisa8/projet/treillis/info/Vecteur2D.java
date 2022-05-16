@@ -10,7 +10,7 @@ package fr.insa.maquiaba.treillisa8.projet.treillis.info;
  */
 public class Vecteur2D {
     private double vx;
-    private double vy;
+    private double vy;   
     
     public double getVx (){
         return this.vx;

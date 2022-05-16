@@ -9,7 +9,7 @@ package fr.insa.maquiaba.treillisa8.projet.treillis.info;
  *
  * @author maqui
  */
-public class Barre {
+public class Barre {  
     private double id;
     private Noeud nDépart;
     private Noeud nArrivée;

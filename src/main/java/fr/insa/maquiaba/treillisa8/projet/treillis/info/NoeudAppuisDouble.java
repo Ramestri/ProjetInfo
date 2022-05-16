@@ -9,7 +9,7 @@ package fr.insa.maquiaba.treillisa8.projet.treillis.info;
  * @author maqui
  */
 
-    public class NoeudAppuisDouble extends NoeudAppuis{
+    public class NoeudAppuisDouble extends NoeudAppuis{   
     
     public NoeudAppuisDouble (double x,double y,Vecteur2D f,double i){
         super(x,y,f,i);

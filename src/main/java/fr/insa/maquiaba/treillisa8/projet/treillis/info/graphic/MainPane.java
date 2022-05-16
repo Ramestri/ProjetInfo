@@ -12,7 +12,7 @@ import javafx.scene.layout.BorderPane;
  *
  * @author francois
  */
-public class MainPane extends BorderPane {
+public class MainPane extends BorderPane { 
     
     private Treillis model;
  

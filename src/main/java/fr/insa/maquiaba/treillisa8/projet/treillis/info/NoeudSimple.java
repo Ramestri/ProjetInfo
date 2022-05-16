@@ -15,7 +15,7 @@ package fr.insa.maquiaba.treillisa8.projet.treillis.info;
         super (x,y,f,i);
     }
     
-    public NoeudSimple (double x,double y,Vecteur2D f){
+    public NoeudSimple (double x,double y,Vecteur2D f){   
         super (x,y,f);
     }
     

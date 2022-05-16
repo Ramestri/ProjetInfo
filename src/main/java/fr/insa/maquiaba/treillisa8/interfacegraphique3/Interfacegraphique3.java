@@ -11,7 +11,9 @@ package fr.insa.maquiaba.treillisa8.interfacegraphique3;
  */
 public class Interfacegraphique3 {
 
-    public static void main(String[] args) {
-        System.out.println("BON");
+    public static void main(String[] args) {       
+        
+        
+        
     }
 }

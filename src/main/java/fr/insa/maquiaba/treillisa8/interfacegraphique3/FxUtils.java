@@ -18,7 +18,7 @@ import javafx.scene.paint.Color;
  */
 public class FxUtils {
     
-    public static void setSimpleBorder(Region r,Color c,double epaisseur) {
+    public static void setSimpleBorder(Region r,Color c,double epaisseur) {   
         
         r.setBorder(new Border(new BorderStroke(c, BorderStrokeStyle.SOLID,
                 CornerRadii.EMPTY, new BorderWidths(epaisseur))));
