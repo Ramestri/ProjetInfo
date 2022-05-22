@@ -29,6 +29,7 @@ public class MainPane extends BorderPane {
     private TextField tfId;
     private VBox outils;
     private Button bNoeud;
+    private Button bBarre;
     
     
     
@@ -45,8 +46,9 @@ public class MainPane extends BorderPane {
       this.tfId = new TextField("123");
       this.entete = new HBox(this.lId);
       this.entete.getChildren().add(this.tfId);
+      this.bBarre= new Button("Barre");
       this.bNoeud = new Button("Noeud");
-      this.outils = new VBox(this.bNoeud);
+      this.outils = new VBox(this.bNoeud,this.bBarre);
       
       FxUtils.setSimpleBorder(this.entete, Color.CYAN, 3);
       FxUtils.setSimpleBorder(this.outils, Color.RED, 3);

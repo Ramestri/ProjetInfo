@@ -4,6 +4,7 @@
  */
 package fr.insa.maquiaba.treillisa8.interfacegraphique3;
 
+import fr.insa.maquiaba.treillisa8.projet.treillis.info.Treillis;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.scene.Scene;
@@ -18,7 +19,8 @@ public class MainFx extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        MainPane main = new MainPane();
+        Treillis model = Treillis.treilliTest();
+        MainPane main = new MainPane(model);
         Scene sc = new Scene(main);
         stage.setScene(sc);
         stage.setTitle("inter graph");
